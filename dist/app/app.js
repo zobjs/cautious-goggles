@@ -9,5 +9,8 @@ app.use(express_1.default.json());
 app.get("/", (req, res) => {
     res.send("Hello, World!");
 });
+app.get("/test", (req, res) => {
+    res.send("Hello, World! test route");
+});
 exports.default = app;
 //# sourceMappingURL=app.js.map

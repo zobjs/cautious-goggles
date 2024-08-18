@@ -12,6 +12,10 @@ app.get("/", (req: Request, res: Response) => {
   res.send("Hello, World!");
 });
 
+app.get("/test", (req: Request, res: Response) => {
+  res.send("Hello, World! test route");
+});
+
 // Additional routes and middleware can be added here
 
 export default app;
